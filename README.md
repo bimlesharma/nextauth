@@ -4,6 +4,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+before that :
+
+## Add DB details (MongoDB Atlas)
+```
+MONGO_URI = Just copy & paste from your cluster
+e.g.(mongodb+srv://<username>:<user-password>@<cluster-name>.pxstd.mongodb.net/<cluster-name>?retryWrites=true&w=majority)
+
+TOKEN_SECRET = "your code here"
+DOMAIN = http://localhost:3000
+```
+
+
+## Add DB details (MongoDB Compass | Local Env.)
+```
+PORT = 3000
+MONGO_URI = mongodb://localhost:27017/
+```
+
+
 ```bash
 npm run dev
 # or
